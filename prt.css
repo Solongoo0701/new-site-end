@@ -1,0 +1,708 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #f4f1f1;
+    
+}
+.head-main {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #00154f;
+    position: fixed;
+    /* border-radius: 0px 0px 80px 80px; */
+}
+.head-main .head-1 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(114, 108, 103);
+
+}
+.head-main .head-2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;;
+}
+.head-main .head-1 .name{
+   font-size: 30px;
+   font-family: 'Crimson Text', serif;
+   color: #fff;;
+   
+}
+.head-main .head-2 .list{
+    color: #fff;
+    transition: all 0.4s;
+}
+.head-main .head-2 .list:hover {
+    cursor: pointer;
+    color: rgb(183, 181, 181);
+    transform: scale(0.8);
+}
+.head-main .head-2 .list-4{
+    color:#fff;;
+    transition: all 0.4s;
+}
+.head-main .head-2 .list-4:hover {
+    cursor: pointer;
+    color: rgb(183, 181, 181);
+    transform: scale(0.8);
+}
+.head-main .head-2 .list-4 a:hover{
+    cursor: pointer;
+    color: rgb(183, 181, 181);
+    transform: scale(0.8);
+}
+.head-main .head-2 .list-4 a {
+    color: #fff;
+}
+main .my-introduction{
+    width: 80%;
+    height: 30rem;
+    background-color: #00154f;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    border-radius: 20px;
+    
+}
+main .my-introduction .intros1{
+    width: 50%;
+    height: 100%;
+    object-fit: scale-down;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    padding: 15px;
+
+}
+main .my-introduction .intros2{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+}
+main .my-introduction .intros2 img{
+    width: 380px;
+    height: 26rem;
+    border-radius: 20px;
+}
+.main-head{
+    width: 100%;
+    height: 30rem;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./back1-2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+
+}
+.main-head .main-top1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main-head .main-top1 h1{
+    color: #fff;
+    text-shadow:  0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #5271ff,
+    0 0 82px #5271ff,
+    0 0 92px #5271ff,
+    0 0 102px #5271ff,
+    0 0 151px #5271ff;;
+    font-family: 'Dancing Script', cursive;
+   
+}
+.main-head .main-top1 p{
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
+    text-shadow:  0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #5271ff,
+    0 0 82px #5271ff,
+    0 0 92px #5271ff,
+    0 0 102px #5271ff,
+    0 0 151px #5271ff;
+    
+}
+.main-head .main-top2{
+    display:block;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.main-head .main-top2 .img1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    
+   
+    
+}
+.main-head .main-top2 .img1 img{
+    width: 50%;
+    transition: all 1.5s;
+    border-radius: 50%;
+   
+}
+.main-head .main-top2 .img1 img:hover{
+    /* transform: scale(1.2); */
+    transition: all 1.5s;
+    
+}
+.title-1{
+    font-size: 40px;
+    width: 100%;
+    height: 5rem;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00154f;
+    margin-top: 15px;
+}
+
+main .information{
+    width: 100%;
+    height: fit-content;
+    /* background-color: #efebe0; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+main .information .list1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+main .information .info4{
+    width: 300px;
+    height: 25rem;
+    background-color: #00154f;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+main .information .info4 h3{
+    color: #fff;
+}
+main .information .info4 .info-img{
+    object-fit: cover;
+}
+main .information .info4 .info-img img{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px 10px 0px 0px;
+}
+main .information .info4 p{
+    margin-top: 10px;
+}
+main .information .info4 .continue{
+    width: 40%;
+    height: 10%;
+    border-radius: 12px;
+    background-color: rgb(238, 177, 46);
+    margin-left: 85px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.2s;
+}
+main .information .info4 .continue:hover{
+    transform: scale(1.2);
+}
+main .information .info4 .continue p{
+    margin-bottom: 8px;
+    color: #fff;
+    transition: all 1.1s;
+    font-size: 20px;
+
+}
+main .information .info4 .continue p:hover{
+    color: #000;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+.video-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+    background-color: #00154f;
+    color: #fff;
+}
+.real-video{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /* background-color: #00154f; */
+    flex-direction: column;
+    border-radius: 20px;
+}
+.real-video video{
+    width: 100%;
+    height: 25rem;
+    
+
+   
+}
+.video a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 2rem;
+    margin-top: 5px;
+}
+.video a .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(238, 177, 46);
+    font-size: 0.4em;
+    color: #fff;
+    margin-top: 30px;
+    transition: all 0.7s;
+
+}
+.view:hover{
+    cursor: pointer;
+    color: #00154f;
+    transform: scale(1.2);
+}
+.back2{
+    width: 100%;
+    height: 16rem;
+    background-image: url(https://memorysport.mn/images/slide2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:50px    
+}
+.foot-1{
+    width: 100%;
+    height: 10rem;
+    background-color: #00154f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+.foot-1 .contact {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+.foot-1 .contact a{
+    color: white;
+    font-family: 'Crimson Text', serif;
+    margin-top: 20px;
+    
+    
+}
+
+.foot-2{
+    width: 100%;
+    height: 1.5rem;
+    background-color: #b1afaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.icons{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 25px;
+
+}
+.icons .real-icon{
+   width: 100px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.icons .real-icon a{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+@media (max-width:1410px){
+    .information{
+        width: 100%;
+        height: fit-content ;
+        display: flex;
+        flex-direction: column;
+
+    }
+    main .information .list1{
+        width: 85%;
+        height: fit-content;
+    } 
+    main .information .list1 .info4{
+    width: 500px;
+    height: 30rem;
+    background-color: #00154f;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    }
+    main .information .list1 .info4 .continue{
+        margin-right: 40px;
+    }
+}
+
+@media (max-width:1255px){
+    /* main .information {
+        width: 80%;
+    } */
+    main .information .list1 .info4{
+        width: 600px;
+        height: 30rem;
+        background-color: #00154f;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 10px;
+        } 
+        main .my-introduction {
+            width: 90%;
+        }
+        main .my-introduction .intros2 img{
+            width: 350px;
+            
+           
+    
+        }
+        main .information .list1 .info4 .continue{
+            margin-right: 40px;
+        }
+
+}
+
+
+
+@media (max-width:830px){
+    .head-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-main .head-2 .list{
+        display: none;
+    }
+    main .information .list1 .info4{
+        width: 600px;
+        height: 25rem;
+    }
+    main .information .list1 .info4 p{
+        padding: 5px;
+    }
+    .real-video video{
+        height: 23rem;
+    }
+    main .my-introduction{
+        width: 90%;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main .my-introduction .intros1{
+        height: 20%;
+        width: 90%;
+        margin-top: 30px;
+    }
+    main .my-introduction .intros2{
+        width: 400px;
+        height: 22rem;
+    }
+    main .information .list1 .info4 .continue{
+        margin-right: 40px;
+    }
+
+    
+}
+@media (max-width:750px){
+    .main-head{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-head .main-top1{
+        width: 100%;
+        height: 100%;
+    }
+    .main-head .main-top2{
+        width: 100%;
+    }
+    .main-head{
+        height: 30rem;
+    }
+    .real-video video{
+        height: 13rem;
+    }
+    main .information .list1 .info4 .continue{
+        margin-right: 40px;
+    }
+}
+@media (max-width:620px){
+    .title-1{
+        font-size: 20px;
+    }
+    main .information .list1{
+        display: flex;
+        flex-direction: column;
+    }
+    main .information .list1 .info4{
+        width: 400px;
+        height: 30rem;
+        background-color: #00154f;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        
+        } 
+        main .my-introduction{
+            height: 48rem;
+        }
+        main .my-introduction .intros2{
+            width: 350px;
+            height: 20rem;
+            margin-top: 30px;
+    
+        }
+        .video a .view .view-span{
+            width: 250px;
+            height: 16px;
+            align-items: center;
+        }
+        main .information .list1 .info4 .continue{
+            margin-right: 40px;
+        }
+}
+@media (max-width:460px)
+{   .head-main{
+    height: 5.5rem;
+}
+    .head-main .head-2{
+        display: none;
+    }
+    .head-main .head-1{
+        width: 100%;
+    }
+    .head-main .head-1 .name{
+        font-size: 6vw;
+    }
+    .main-head .main-top1{
+        width: 100%;
+        height: 100%;
+       
+    }
+    main .information .list1 .info4{
+        width: 350px;
+        height: 25rem;
+        background-color: #00154f;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 10px;
+        } 
+        .real-video video{
+            height: 10rem;
+        }
+        main .my-introduction{
+            height: 44rem;
+        }
+        main .my-introduction .intros2{
+            width: 350px;
+            height: 20rem;
+            margin-top: 30px;
+    
+        }
+        .video a .view .view-span{
+            width: 250px;
+            height: 16px;
+            align-items: center;
+        }
+        main .information .list1 .info4 .continue{
+            margin-right: 40px;
+        }
+        footer .foot-1 h1{
+            display: none;
+        }
+        footer .foot-1 .contact{
+            width: 70%;
+        }
+        footer .foot-1 .icons{
+            width: 50%;
+        }
+        footer .foot-2 {
+            display: none;
+        }
+}
+@media (max-width:420px){
+    main .my-introduction{
+        height: 40rem;
+    }
+    main .my-introduction .intros2 img{
+        width: 300px;
+        height: 18rem;
+        margin-top: 60px;
+
+    }
+    .video a .view .view-span{
+        width: 250px;
+        height: 16px;
+        align-items: center;
+    }
+}
+@media (max-width:380px){
+    .title-1{
+        font-size: 12px;
+    }
+    .main-head{
+        height: 30rem;
+
+    }
+    .main-head .main-top1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+    .main-head .main-top2{
+        height: 50%;
+    }
+    .video a .view .view-span{
+        width: 250px;
+        height: 16px;
+        align-items: center;
+        
+    }
+
+    main .information .list1 .info4{
+        width: 260px;
+        height: 25rem;
+        background-color: #00154f;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        } 
+        main .my-introduction{
+            height: 40rem;
+        }
+        main .my-introduction .intros2{
+            width: 260px;
+        }
+        main .my-introduction .intros2 img{
+            width: 260px;
+            height: 15rem;
+            margin-top: 40px;
+    
+        }
+          
+}
+@media (max-width:280px){
+    .title-1{
+    font-size: 10px;
+    width: 100%;
+    height: 5rem;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00154f;
+    margin-top: 25px;
+    }
+    main .information .list1 .info4{
+        width: 230px;
+        height: 22rem;
+        background-color: #00154f;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        margin-top: 60px;
+        margin: auto;
+        } 
+}
